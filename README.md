@@ -1,6 +1,9 @@
 # RandomUser test example
 
-This is a simple project used to learn about the basics of `express`, `ejs` and `axios` modules.
+This is a simple project used to learn and exercise the basics of `express`, `ejs`, `axios` modules and a little bit of `CSS`.
+
+![image](https://github.com/smartM0ve/RandomUser/assets/158101663/48f7a4cd-9abe-4d3c-ad26-fd8c092a7151)
+
 
 ### How to use
 
