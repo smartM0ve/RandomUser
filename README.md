@@ -7,8 +7,9 @@ To configure and run:
 And then access it with the link:
 - localhost:3000
 
-It uses the free and open-source API that generates random users: https://randomuser.me/
-Github: https://github.com/RandomAPI/Randomuser.me-Node
+It uses the free and open-source API that generates random users:
+- site: https://randomuser.me/
+- Github: https://github.com/RandomAPI/Randomuser.me-Node
 
 The page style was based on these css examples:
 - https://codepen.io/_rahul/pen/NWXjOXW (Glassmorphism: Simple Card UI)
