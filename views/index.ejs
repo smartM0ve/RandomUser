@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random User</title>
+</head>
+<body>
+    <div class="page-title">
+        Random User
+    </div>
+    <div class="card">
+        <img src="<%= content.picture %>" alt="profile picture" class="picture">
+        <div class="info">
+            <% if (locals.content) {%>
+                <div class="card-value card-name">
+                    <%= content.name %>
+                    <div class="value-title">
+                        name
+                    </div>
+                </div>
+                <div class="card-value">
+                    <%= content.country %>
+                    <div class="value-title">
+                        country
+                    </div>
+                </div>
+                <div class="card-value">
+                    <%= content.age %>
+                    <div class="value-title">
+                        age
+                    </div>
+                </div>
+            <% } else { %>
+                <h1>Hello world.</h1>
+            <% } %>
+        </div>
+    </div>
+    <form action="/" method="post">
+        <input type="submit" value="Refresh">
+    </form>
+</body>
+</html>
