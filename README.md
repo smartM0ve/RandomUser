@@ -1,11 +1,12 @@
-This is a simple project used to learn about the basics of express, ejs and axios modules.
+# RandomUser test example
 
-To configure and run:
-- npm i
-- node index.js
+This is a simple project used to learn about the basics of `express`, `ejs` and `axios` modules.
 
-And then access it with the link:
-- localhost:3000
+### How to use
+
+1. Run `npm i`
+2. Run `node index.js`
+3. Access `localhost:3000`
 
 It uses the free and open-source API that generates random users:
 - site: https://randomuser.me/
